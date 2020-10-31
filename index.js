@@ -4,7 +4,7 @@ const wrong = document.querySelector('#wrong span');
 const popup = document.getElementById('popup-container');
 const double = document.querySelector('.double-letter');
 
-const possibleWords = ['hello', 'goodbye'];
+const possibleWords = ['hello', 'goodbye', 'henrique', 'elephant', 'javascript', 'github', 'canvas', 'monkey', 'chicken', 'webdev', 'computer', 'laptop', 'smartphone', 'responsive', 'ecommerce', 'wordpress', 'strawberry', 'banana', 'glass', 'table', 'grid', 'fetch', 'flower'];
 let selectedWord = possibleWords[Math.floor(Math.random()*possibleWords.length)]
 let correctLetters = []
 let wrongLetters = []
