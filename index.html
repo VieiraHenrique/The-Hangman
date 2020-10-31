@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="popup-container" id="popup-container">
+        <div class="popup-message">
+        </div>
+    </div>
+
+    <div class="double-letter">
+        <p>You've already entered this letter</p>
+    </div>
+
+    <div class="container title">
+        <h1>Hangman</h1>
+        <p>Find the word ! Before it's too late...</p>
+
+        <div class="game-container">
+            <div class="hang">
+                <img src="img/1x/hang.png" class="hang">
+                <div class="person">
+                    <img src="img/1x/head.png" class="part head">
+                    <img src="img/1x/body.png" class="part body">
+                    <img src="img/1x/arm_l.png" class="part arm-l">
+                    <img src="img/1x/arm_r.png" class="part arm-r">
+                    <img src="img/1x/leg_l.png" class="part leg-l">
+                    <img src="img/1x/leg_r.png" class="part leg-r">
+                </div>
+            </div>
+            <div class="wrong" id="wrong">
+                <h3>Wrong <br> letters</h3>
+                <span></span>
+            </div>
+
+        </div>
+        <div class="word" id="word">
+        </div>
+
+
+
+    </div>
+
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
