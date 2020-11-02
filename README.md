@@ -1,3 +1,3 @@
 # hangman
 
-https://vieirahenrique.github.io/hangman/
+https://vieirahenrique.github.io/The-Hangman/
